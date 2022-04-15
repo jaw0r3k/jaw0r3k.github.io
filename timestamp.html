@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timestamp calculator</title>
+    <link rel="icon" href="./favicon.ico">
+    <script src="./utils/index.js"></script>
+    <script src="./utils/timestamp.js"></script>
+    <link href="./utils/styles.css" rel="stylesheet">
+    <link href="./utils/timestap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body class="text-center bg-discord-ligth dark:bg-discord-dark">
+    <div id="sidebar" class="w-auto bg-discord-ligth dark:bg-discord-dark2">
+        <a href="https://discord.com/users/693055800322818149"class="w-auto float-left ml-8 mt-2 lg:block link">Jaw0r3k</a>
+    <button class="float-right mr-5 mt-auto select-none mb-auto hover:cursor-pointer hover:animate-pulse opacity-50 dark:opacity-100" id="style" style="text-align:right">💡</button>
+</div>
+<div id="preview">
+   Timestap: <input id="timestap" class="date"></br>
+   Preview: <input value="20 minutes ago" id="pw" disabled class="ml-2 date text-center select-none" style="background-color:  #2f3438;">
+</div>
+    <div id="settings" class="mt-40">
+    <div class="inline-grid text-center"> 
+        <span class="text-xs">Day</span>
+     <input placeholder="DD" minlength="1" maxlength="2"  autocomplete="off" id="day" min="1" max="31" class="focus:outline-none inline-grid fl date w-10 h-6 text-center text-gray-100">
+    </div>
+    <div class="inline-grid text-center">
+        <span class="text-xs">Month</span>
+        <input placeholder="MM"  minlength="1" maxlength="2" autocomplete="off" id="month" min="1" max="12" class="focus:outline-none  inline-grid date w-10 h-6 text-center text-gray-100">
+    </div>
+    <div class="inline-grid text-center">
+        <span class="text-xs">Year</span>
+        <input placeholder="YYYY" minlength="4" maxlength="4"  autocomplete="off" id="year" min="1970" max="9999" class="focus:outline-none inline-grid date h-6 w-10 text-center text-gray-100">
+    </div>
+    <div class="inline-grid ml-4 text-center">
+        <span class="text-xs">Hour</span>
+        <input placeholder="HH" minlength="1" maxlength="2"  autocomplete="off" id="hour" min="1" max="24" class="focus:outline-none inline-grid date w-10 h-6 text-center text-gray-100">
+    </div>
+    <div class="inline-grid text-center">
+        <span class="text-xs">Minute</span>
+        <input placeholder="MM"  minlength="1" maxlength="2" autocomplete="off" id="minute" min="0" max="60" class="focus:outline-none inline-grid date w-10 h-6 text-center text-gray-100">
+    </div>
+    <div class="inline-grid text-center">
+        <span class="text-xs" type="text">Second</span>
+        <input placeholder="SS" minlength="1" maxlength="2"  autocomplete="off" id="second" min="0" max="60" class="focus:outline-none  inline-grid date w-10 h-6 text-center text-gray-100">
+    </div>
+    </div> 
+    Style
+    </br> 
+    <select class="select text-center w-56 h-8 focus:outline-none focus:border-0"> 
+            <option value="t">16:20</option>
+            <option value="T">16:20:30</option>
+            <option value="d">20/04/2021</option>
+            <option value="D">20 April 2021</option>
+            <option value="f">20 April 2021 16:20</option>
+            <option value="F">Tuesday, 20 April 2021 16:20</option>
+            <option value="R">2 months ago</option>
+        </select>
+
+    </div>
+    <script src="./utils/after.js"></script>
+</body>
+<!--
+
+╋╋┏┓╋╋╋╋╋╋╋┏━━━┓┏━━━┳┓
+╋╋┃┃╋╋╋╋╋╋╋┃┏━┓┃┃┏━┓┃┃
+╋╋┃┣━━┳┓┏┓┏┫┃┃┃┣┻┫┏┛┃┃┏┓
+┏┓┃┃┏┓┃┗┛┗┛┃┃┃┃┃┏┫┗┓┃┗┛┛
+┃┗┛┃┏┓┣┓┏┓┏┫┗━┛┃┃┗━┛┃┏┓┓
+┗━━┻┛┗┛┗┛┗┛┗━━━┻┻━━━┻┛┗┛
+
+-->
+</html>
