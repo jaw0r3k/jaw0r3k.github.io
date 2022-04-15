@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html class="dark" lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QP8297V5NX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QP8297V5NX');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create unix timestamp for discord!"/>
+    <meta name="keywords" content="jaw0r3k, discord, timestamp, unix, creator"/>
+    <meta name="author" content="Jaw0r3k" />
+    <meta name="copyright" content="Jaw0r3k" />
+    <meta http-equiv="expires" content="43200"/>
+    <meta name="application-name" content="Jaw0r3k">
+    <!-- <meta name="format-detection" content="telephone=no"> -->
+    <meta name="robots" content="follow"/>
     <title>Timestamp calculator</title>
     <link rel="icon" href="./favicon.ico">
     <script src="./utils/timestamp.js"></script>
@@ -26,7 +42,7 @@
     <div class="inline-grid text-center"> 
         <span class="text-xs">Day</span>
      <input placeholder="DD" minlength="1" maxlength="2"  autocomplete="off" id="day" min="1" max="31" class="focus:outline-none inline-grid fl date w-10 h-6 text-center text-gray-100">
-    </div> </br>
+    </div>
     <div class="inline-grid text-center">
         <span class="text-xs">Month</span>
         <input placeholder="MM"  minlength="1" maxlength="2" autocomplete="off" id="month" min="1" max="12" class="focus:outline-none  inline-grid date w-10 h-6 text-center text-gray-100">
@@ -47,7 +63,7 @@
         <span class="text-xs" type="text">Second</span>
         <input placeholder="SS" minlength="1" maxlength="2"  autocomplete="off" id="second" min="0" max="60" class="focus:outline-none  inline-grid date w-10 h-6 text-center text-gray-100">
     </div>
-    </div> 
+    </div>  </br>
     Style
     </br> 
     <select id="tstyle" value="f" class="select text-center w-56 h-8 focus:outline-none focus:border-0"> 
