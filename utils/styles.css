@@ -664,6 +664,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-position: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
