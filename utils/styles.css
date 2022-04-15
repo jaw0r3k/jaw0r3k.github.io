@@ -581,6 +581,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.5rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .inline-grid {
   display: inline-grid;
 }
