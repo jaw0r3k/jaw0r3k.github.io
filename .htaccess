@@ -1,8 +1,0 @@
-### Protect Files ###
-<FilesMatch "\.(htaccess|htpasswd"ini"fla|psd|log|sh|cmd)$">
-Order Allow,Deny
-Deny from all
-</FilesMatch>
-RewriteEngine On
-RewriteRule timestamp timestamp.html
-RewriteRule portfolio index.html
